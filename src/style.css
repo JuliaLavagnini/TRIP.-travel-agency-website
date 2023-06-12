@@ -1,0 +1,44 @@
+body {
+    font-family: "Outfit", sans-serif;
+    color: #2B293A;
+}
+
+nav {
+    padding-top: 42px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 119.5%;
+
+    letter-spacing: 0.015em;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150.6%;
+
+    letter-spacing: 0.02em;
+}
+
+.hero-pic {
+    position: absolute;
+    top: 110px;
+}
+
+.hero-section {
+    min-height: 100vh;
+    min-width: 0;
+    padding: 21vh 10em;
+}
+
+.container {
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
