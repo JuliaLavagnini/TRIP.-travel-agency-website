@@ -1,18 +1,74 @@
 body {
     font-family: "Outfit", sans-serif;
     color: #2B293A;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #F6FAFF;
+    min-height: 100%;
 }
 
-nav {
-    padding-top: 42px;
-    margin-right: 10px;
+.navbar{
+    padding-top: 1.5em;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+ 
+.nav-link{
+    margin-right: 40px;
+}
+.nav-item{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
 }
 
 h1 {
     font-weight: 800;
-    font-size: 100px;
     line-height: 119.5%;
-
+    font-size: 100px;
     letter-spacing: 0.015em;
 }
 
@@ -20,25 +76,17 @@ p {
     font-weight: 400;
     font-size: 18px;
     line-height: 150.6%;
-
     letter-spacing: 0.02em;
+}
+
+.hero {
+    height: 100vh;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .hero-pic {
     position: absolute;
     top: 110px;
+    max-width: 100%;
 }
-
-.hero-section {
-    min-height: 100vh;
-    min-width: 0;
-    padding: 21vh 10em;
-}
-
-.container {
-    max-width: 1160px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
