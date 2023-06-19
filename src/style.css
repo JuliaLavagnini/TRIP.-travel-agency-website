@@ -6,20 +6,23 @@ body {
     background-color: #F6FAFF;
     min-height: 100%;
 }
-
-.navbar{
+    
+.navbar {
     padding-top: 1.5em;
     padding-left: 7%;
     padding-right: 7%;
-    
 }
 
-.navbar-nav .nav-link.active{
+.navbar img {
+    border-radius: 0;
+}
+
+.navbar-nav .nav-link.active {
     color: #FA712E;
     font-weight: 700;
 }
- 
-.nav-item{
+
+.nav-item {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 500;
@@ -27,16 +30,28 @@ body {
     letter-spacing: 0.1em;
 }
 
-.nav-link{
+.nav-link {
     margin-right: 40px;
     color: #2B293A;
+}
+
+.collapse .btn{
+    border: 1px solid #FA712E;
+    color: #FA712E;
+    text-transform: uppercase;
+}
+
+.collapse .btn:hover {
+    color: white;
+    text-transform: uppercase;
+    background-color: rgba(250, 117, 50, 0.532);
 }
 
 .container-fluid {
     margin-right: auto;
     margin-left: auto;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
     width: 100%;
 }
 
@@ -50,7 +65,7 @@ h1 {
     line-height: 119.5%;
     font-size: 100px;
     letter-spacing: 0.015em;
-    margin-top: 1.7em;
+    padding-top: 1.5em;
 }
 
 p {
@@ -60,21 +75,33 @@ p {
     letter-spacing: 0.02em;
 }
 
+.hero-heading {
+
+    margin-left: 2.3em;
+}
+
 .hero-pic {
     max-width: 100%;
 }
 
-h2{
+h2 {
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
     letter-spacing: 0.04em;
-    padding-bottom: 2em;
 }
 
-h5{
-    font-weight: 600;
+section {
+    padding-top: 30vh;
+}
+
+.card-item {
+    padding-top: 5em;
+}
+
+h5 {
+    font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.1em;
@@ -82,31 +109,49 @@ h5{
     text-align: center;
     padding-top: 1.5em;
 }
-img{
+
+img {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
-.link-section{
+.link-section {
     padding-top: 18em;
 }
 
-.link-section h2, p {
+.link-section .text {
     margin-top: 20%;
     padding-bottom: 0.3em;
     margin-left: 5%;
 }
 
-.link-section p{
+.link-section p {
     margin-top: 1.5%;
 }
 
-.link-section .btn{
+.link-section .btn {
     margin-top: 4%;
     padding: 10px;
     background-color: #4489E4;
     border: #4489E4;
+}
+
+.info {
+    text-align: center;
+}
+
+.info .heading p {
+    padding: 50px;
+}
+
+.info .icon p {
+    padding-top: 20px;
+}
+
+.info img {
+    width: 100%;
+    max-height: 90px;
 }
 
 @media (min-width: 576px) {
