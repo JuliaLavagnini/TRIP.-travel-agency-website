@@ -159,49 +159,31 @@ img {
     max-height: 90px;
 }
 
-.carousel-inner {
-    margin: auto;
-    height: 530px;
-    padding: 50px;
-}
+/*carousel*/
 
-.carousel-item{
-    max-height:291px;
-    padding: 30px 40px 130px 40px;
+.box-text{
+    height: auto;
+    padding: 30px 40px 34px 40px;
+    margin-top: 4%;
     border-radius: 10px;
     background: #FfFfFF;
     box-shadow: 0px 35px 45px rgba(58, 58, 58, 0.09);
    
 }    
 
-.carousel-item img{
+.box-text img{
     height: auto;
     width: 179.8px;
 }
 
-.carousel-item p{
+.box-text p{
     padding-top: 2%;
 }
 
-.controls {
-    position: absolute;
-    bottom: 245px;
-    left: 412px;
-}
-
-.controls img{
-    width: 50px;
-    height: 50px;
-}
-
-.carousel-control-next{
-    position: absolute;
-    left: 42em;
-}
-
-.carousel-control-prev {
-    position: absolute;
-    left: 38em;
+.caption{
+    font-weight: 300;
+    font-size: 14px;
+    padding: 15px 0 0 6px;
 }
 
 @media (min-width: 576px) {
