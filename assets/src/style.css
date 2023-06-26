@@ -7,6 +7,43 @@ body {
     min-height: 100%;
 }
 
+section {
+    padding: 25vh 60px 0 60px;
+}
+
+h1 {
+    font-weight: 800;
+    line-height: 119.5%;
+    font-size: 20vh;
+    letter-spacing: 0.015em; 
+}
+
+/* ALL H2 HEADING FOLLOWS IT BUT IF SOME NEEDS A DIFFRENT STRUCTURE I DO IN A SEPARATE TAG */
+h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.04em;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 1.5em;
+}
+
+p {
+    font-weight: 400;
+    font-size: 3vh;
+    line-height: 150.6%;
+    letter-spacing: 0.02em;
+}
+
 .hero {
     height: 800px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), url('../media/background-image-min.png');
@@ -63,20 +100,6 @@ body {
     width: 100%;
 }
 
-h1 {
-    font-weight: 800;
-    line-height: 119.5%;
-    font-size: 20vh;
-    letter-spacing: 0.015em; 
-}
-
-p {
-    font-weight: 400;
-    font-size: 3vh;
-    line-height: 150.6%;
-    letter-spacing: 0.02em;
-}
-
 .hero-heading {
     display: flex;
     padding-top: 115px;
@@ -87,45 +110,14 @@ p {
     text-align: center;
 }
 
-.hero-pic {
-    width: 100%;
-    height: auto;
-}
-
-h2 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 60px;
-    letter-spacing: 0.04em;
-}
-
-section {
-    padding-top: 7vh;
-}
-
 .card-item {
     padding-top: 5em;
-}
-
-h5 {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 1.5em;
 }
 
 img {
     width: 100%;
     height: auto;
-    border-radius: 10px;
-}
-
-.link-section {
-    padding-top: 18em;
+    border-radius: 6px;
 }
 
 .link-section .text {
