@@ -127,14 +127,19 @@ img {
 }
 
 .link-section p {
-    margin-top: 1.5%;
+    margin-top: 2%;
 }
 
 .link-section .btn {
     margin-top: 4%;
-    padding: 10px;
+    padding: 15px;
     background-color: #4489E4;
     border: #4489E4;
+}
+
+.link-section .btn:hover {
+    background-color: #3e5e89;
+    border: #3e5e89;
 }
 
 .info {
