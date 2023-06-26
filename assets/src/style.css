@@ -8,7 +8,7 @@ body {
 }
 
 section {
-    padding: 25vh 60px 0 60px;
+    padding: 15vh 60px 0 60px;
 }
 
 h1 {
@@ -22,8 +22,8 @@ h1 {
 h2 {
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 7vh;
+    line-height: 65px;
     letter-spacing: 0.04em;
 }
 
@@ -39,7 +39,7 @@ h5 {
 
 p {
     font-weight: 400;
-    font-size: 3vh;
+    font-size: 2vh;
     line-height: 150.6%;
     letter-spacing: 0.02em;
 }
@@ -120,10 +120,15 @@ img {
     border-radius: 6px;
 }
 
+.link-section img{
+    max-width: 100%;
+    height: auto;
+}
+
 .link-section .text {
-    margin-top: 20%;
+    margin-top: 14%;
     padding-bottom: 0.3em;
-    margin-left: 5%;
+    margin-left: -11%;
 }
 
 .link-section p {
@@ -229,6 +234,26 @@ img {
     .container-fluid {
         max-width: 720px;
     }
+
+    h1{
+        font-size: 14vh;
+    }
+
+    .hero-heading{
+        padding-top: 10px;
+    }
+
+    .link-section {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .link-section .text {
+        margin-top: 14%;
+        padding-bottom: 0.3em;
+        margin-left: 1%;
+    }
+
 }
 
 @media (min-width: 992px) {
