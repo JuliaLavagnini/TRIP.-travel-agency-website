@@ -44,6 +44,10 @@ p {
     letter-spacing: 0.02em;
 }
 
+.navigation-site{
+    padding-top: 0;
+}
+
 .hero {
     height: 800px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), url('../media/background-image-min.png');
@@ -110,6 +114,8 @@ p {
     text-align: center;
 }
 
+
+
 .card-item {
     padding-top: 5em;
 }
@@ -163,8 +169,6 @@ img {
     width: 100%;
     max-height: 90px;
 }
-
-/*carousel*/
 
 .box-text{
     height: auto;
@@ -224,6 +228,64 @@ img {
     font-weight: 700;
 }
 
+.navigation-site .nav-link{
+    color: #2B293A;
+}
+
+.navigation-site .nav-link:hover {
+    color: #F6FAFF;
+}
+
+.lines{
+    padding-top: 60px;
+}
+
+.lines img{
+    max-width: 520px;
+    max-height: 490px;
+}
+
+.lines h5{
+    color: white;
+    font-size: 50px;
+}
+
+.lines .arg{
+    position: absolute;
+    top: 80%;
+    left: 13%;
+}
+
+.lines .bra {
+    position: absolute;
+    top: 80%;
+    right: 19%;
+}
+
+.lines .jam {
+    position: absolute;
+    top: 268%;
+    left: 15%;
+}
+
+.lines .cub {
+    position: absolute;
+    top: 268%;
+    right: 20%;
+}
+
+.lines .cos {
+    position: absolute;
+    top: 168%;
+    left: 12%;
+}
+
+.lines .gua {
+    position: absolute;
+    top: 168%;
+    right: 12%;
+}
+
 @media (min-width: 576px) {
     .container-fluid {
         max-width: 540px;
@@ -237,10 +299,6 @@ img {
 
     h1{
         font-size: 14vh;
-    }
-
-    .hero-heading{
-        padding-top: 10px;
     }
 
     .link-section {
