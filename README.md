@@ -20,15 +20,36 @@ The client wants a clear visual website to attract people which could say more t
 * Wireframes were made to make a clear perception of the project.
 Home Page:
 ![Home Page](https://github.com/JuliaLavagnini/Travel-website/blob/main/assets/documentation-media/Home.png "Home Page")
-Home Page:
+Destination Page:
 ![Destinations Page](https://github.com/JuliaLavagnini/Travel-website/blob/main/assets/documentation-media/Destinations.png "Destinations Page")
-Home Page:
+About Page:
 ![About Page](https://github.com/JuliaLavagnini/Travel-website/blob/main/assets/documentation-media/About%20Us.png "About Page")
 
 After a meeting, the client request changes on the wareframes and was approved by this point the follow up.
 Home Page:
 ![Home Page](https://github.com/JuliaLavagnini/Travel-website/blob/main/assets/documentation-media/Homev2.png "Home Page")
-Home Page:
+Destination Page:
 ![Destinations Page](https://github.com/JuliaLavagnini/Travel-website/blob/main/assets/documentation-media/Destinationsv2.png"Destination Page")
-Home Page:
+About Page:
 ![About Page](https://github.com/JuliaLavagnini/Travel-website/blob/main/assets/documentation-media/About%20Usv2.png "About Page")
+
+## Final Design
+After confirmation of Wireframes I could design the visual aspect of the application.
+![Home Page](https://github.com/JuliaLavagnini/Travel-website/blob/main/assets/documentation-media/HomeFD.png "Home Page")
+Destination Page:
+![Destinations Page](https://github.com/JuliaLavagnini/Travel-website/blob/main/assets/documentation-media/DestinationsFD.png "Destination Page")
+About Page:
+![About Page](https://github.com/JuliaLavagnini/Travel-website/blob/main/assets/documentation-media/AboutFD.png "About Page")
+
+
+## Technologies Used
+This project was designed and developed by tools as:
+* Figma, 
+* Visual Studio and 
+* Google tools 
+
+The language and library used was:
+* HTML, 
+* CSS, 
+* Google fonts, 
+* Boostrap
