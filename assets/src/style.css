@@ -233,7 +233,7 @@ img {
 }
 
 .navigation-site .nav-link:hover {
-    color: #F6FAFF;
+    color: #4489E4;
 }
 
 .lines{
@@ -264,26 +264,37 @@ img {
 
 .lines .jam {
     position: absolute;
-    top: 268%;
+    top: 220%;
     left: 15%;
 }
 
 .lines .cub {
     position: absolute;
-    top: 268%;
+    top: 220%;
     right: 20%;
 }
 
 .lines .cos {
     position: absolute;
-    top: 168%;
+    top: 147%;
     left: 12%;
 }
 
 .lines .gua {
     position: absolute;
-    top: 168%;
-    right: 12%;
+    top: 147%;
+    right: 25%;
+}
+
+.texblock{
+    padding-top: 3%;
+    max-width: 500px;
+}
+
+.about-page{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 @media (min-width: 576px) {
