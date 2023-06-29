@@ -58,3 +58,4 @@ The language and library used was:
 
 ## Deployment
 The website is hosted on GitHub Pages, to open click on the following link:
+[**Travel Website Hosted by Netlify**](https://grand-bienenstitch-48e85b.netlify.app/index.html)
