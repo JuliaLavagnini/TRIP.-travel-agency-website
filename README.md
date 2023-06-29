@@ -41,7 +41,6 @@ Destination Page:
 About Page:
 ![About Page](https://github.com/JuliaLavagnini/Travel-website/blob/main/assets/documentation-media/AboutFD.png "About Page")
 
-
 ## Technologies Used
 This project was designed and developed by tools as:
 * Figma, 
@@ -53,3 +52,6 @@ The language and library used was:
 * CSS, 
 * Google fonts, 
 * Boostrap
+
+## Deployment
+The website is hosted on GitHub Pages, to open click on the following link:
