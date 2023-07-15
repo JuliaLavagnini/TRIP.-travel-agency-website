@@ -297,6 +297,19 @@ img {
     align-items: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 576px) {
     .container-fluid {
         max-width: 540px;
@@ -326,9 +339,12 @@ img {
 }
 
 @media (min-width: 992px) {
-    .container-fluid {
-        max-width: 960px;
+    .sticky-top.navbar-light {
+        position: fixed;
+        background: #FFFFFF;
     }
+
+    
 }
 
 @media (min-width: 1200px) {
