@@ -81,7 +81,7 @@ p {
 
 .nav-link {
     margin-right: 40px;
-    color: #F6FAFF;
+    color: #4489E4;
 }
 
 .collapse .btn{
@@ -113,8 +113,6 @@ p {
     flex-wrap: wrap;
     text-align: center;
 }
-
-
 
 .card-item {
     padding-top: 5em;
@@ -297,58 +295,16 @@ img {
     align-items: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 576px) {
-    .container-fluid {
-        max-width: 540px;
-    }
+.text-danger {
+    color: #FA712E!important;
 }
 
-@media (min-width: 768px) {
-    .container-fluid {
-        max-width: 720px;
-    }
 
-    h1{
-        font-size: 14vh;
-    }
 
-    .link-section {
-        display: flex;
-        flex-direction: row;
-    }
 
-    .link-section .text {
-        margin-top: 14%;
-        padding-bottom: 0.3em;
-        margin-left: 1%;
-    }
 
-}
 
-@media (min-width: 992px) {
-    .sticky-top.navbar-light {
-        position: fixed;
-        background: #FFFFFF;
-    }
 
-    
-}
 
-@media (min-width: 1200px) {
-    .container-fluid {
-        max-width: 1440px;
-    }
-}
+
+
