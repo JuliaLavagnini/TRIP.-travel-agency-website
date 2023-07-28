@@ -160,6 +160,15 @@ p {
     align-items: center;
 }
 
+/* Destination */
+.destination img {
+    transition: .5s;
+}
+
+.destination a:hover img {
+    transform: scale(1.1);
+} 
+
 @media (max-width: 991.98px) {
     .sticky-top.navbar-light {
         position: relative;
