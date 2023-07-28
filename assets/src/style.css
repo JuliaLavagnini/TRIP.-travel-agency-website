@@ -131,49 +131,7 @@ p {
     background-color: rgba(250, 117, 50, 0.532);
 }
 
-
-.info {
-    text-align: center;
-}
-
-.info .heading p {
-    padding: 50px;
-}
-
-.info .icon p {
-    padding-top: 20px;
-}
-
-.info img {
-    width: 100%;
-    max-height: 90px;
-}
-
-.box-text{
-    height: auto;
-    padding: 30px 40px 34px 40px;
-    margin-top: 4%;
-    border-radius: 10px;
-    background: #FfFfFF;
-    box-shadow: 0px 35px 45px rgba(58, 58, 58, 0.09);
-   
-}    
-
-.box-text img{
-    height: auto;
-    width: 179.8px;
-}
-
-.box-text p{
-    padding-top: 2%;
-}
-
-.caption{
-    font-weight: 300;
-    font-size: 14px;
-    padding: 15px 0 0 6px;
-}
-
+/* Newslettler */
 .newsletter{
     text-align: center;
 }
@@ -195,33 +153,7 @@ p {
     padding-top: 30px;
 }
 
-.navigation-site .nav-link{
-    color: #2B293A;
-}
-
-.navigation-site .nav-link:hover {
-    color: #4489E4;
-}
-
-.lines{
-    padding-top: 60px;
-}
-
-.lines img{
-    max-width: 520px;
-    max-height: 490px;
-}
-
-.lines h5{
-    color: white;
-    font-size: 50px;
-}
-
-.texblock{
-    padding-top: 3%;
-    max-width: 500px;
-}
-
+/* About */
 .about-page{
     display: flex;
     justify-content: space-around;
