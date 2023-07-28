@@ -1,15 +1,28 @@
+:root {
+    --primary: #FE8800;
+    --secondary: #4981fa;
+    --light: #F6FAFF;
+    --dark: #2B293A;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
+
+/** Essential **/
 body {
     font-family: "Outfit", sans-serif;
-    color: #2B293A;
+    color: var(--dark);
     font-size: 14px;
     line-height: 20px;
-    background-color: #F6FAFF;
+    background-color: var(--light);
     min-height: 100%;
 }
 
-section {
-    padding: 15vh 60px 0 60px;
-}
 
 h1 {
     font-weight: 800;
@@ -18,7 +31,6 @@ h1 {
     letter-spacing: 0.015em; 
 }
 
-/* ALL H2 HEADING FOLLOWS IT BUT IF SOME NEEDS A DIFFRENT STRUCTURE I DO IN A SEPARATE TAG */
 h2 {
     font-style: normal;
     font-weight: 700;
@@ -44,15 +56,38 @@ p {
     letter-spacing: 0.02em;
 }
 
-.navigation-site{
-    padding-top: 0;
-}
 
+/* hero */
 .hero {
     height: 800px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), url('../media/background-image-min.png');
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 0;
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 60px;
+    padding-left: 60px;
+    width: 100%;
+}
+
+.hero-heading {
+    display: flex;
+    padding-top: 115px;
+    color: #F6FAFF;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+/* NavBar */
+
+.navigation-site{
     padding-top: 0;
 }
     
@@ -81,12 +116,12 @@ p {
 
 .nav-link {
     margin-right: 40px;
-    color: #4489E4;
+    color: var(--light);
 }
 
 .collapse .btn{
-    border: 1px solid #FA712E;
-    color: #FA712E;
+    background-color: #fc915c3a;
+    color: #DDDDDD;
     text-transform: uppercase;
 }
 
@@ -96,60 +131,6 @@ p {
     background-color: rgba(250, 117, 50, 0.532);
 }
 
-.container-fluid {
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 60px;
-    padding-left: 60px;
-    width: 100%;
-}
-
-.hero-heading {
-    display: flex;
-    padding-top: 115px;
-    color: #F6FAFF;
-    align-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-.card-item {
-    padding-top: 5em;
-}
-
-img {
-    width: 100%;
-    height: auto;
-    border-radius: 6px;
-}
-
-.link-section img{
-    max-width: 100%;
-    height: auto;
-}
-
-.link-section .text {
-    margin-top: 14%;
-    padding-bottom: 0.3em;
-    margin-left: -11%;
-}
-
-.link-section p {
-    margin-top: 2%;
-}
-
-.link-section .btn {
-    margin-top: 4%;
-    padding: 15px;
-    background-color: #4489E4;
-    border: #4489E4;
-}
-
-.link-section .btn:hover {
-    background-color: #3e5e89;
-    border: #3e5e89;
-}
 
 .info {
     text-align: center;
@@ -214,18 +195,6 @@ img {
     padding-top: 30px;
 }
 
-.custom-popover {
-    --bs-popover-max-width: 500px;
-    --bs-popover-border-color: green;
-    --bs-popover-body-padding-x: 1rem;
-    --bs-popover-body-padding-y: .5rem;
-    --bs-popover-body-color: white;
-    --bs-popover-font-size: 2rem;
-    --bs-popover-bg:green;
-    padding: 10px 50px;
-    font-weight: 700;
-}
-
 .navigation-site .nav-link{
     color: #2B293A;
 }
@@ -248,42 +217,6 @@ img {
     font-size: 50px;
 }
 
-.lines .arg{
-    position: absolute;
-    top: 80%;
-    left: 13%;
-}
-
-.lines .bra {
-    position: absolute;
-    top: 80%;
-    right: 19%;
-}
-
-.lines .jam {
-    position: absolute;
-    top: 220%;
-    left: 15%;
-}
-
-.lines .cub {
-    position: absolute;
-    top: 220%;
-    right: 20%;
-}
-
-.lines .cos {
-    position: absolute;
-    top: 147%;
-    left: 12%;
-}
-
-.lines .gua {
-    position: absolute;
-    top: 147%;
-    right: 25%;
-}
-
 .texblock{
     padding-top: 3%;
     max-width: 500px;
@@ -295,12 +228,28 @@ img {
     align-items: center;
 }
 
-.text-danger {
-    color: #FA712E!important;
+@media (max-width: 991.98px) {
+    .sticky-top.navbar-light {
+        position: relative;
+        background: #FFFFFF;
+    }
+
+    .navbar-light .navbar-collapse {
+        margin-top: 15px;
+        border-top: 1px solid #DDDDDD;
+    }
+
+    .navbar-light .navbar-nav .nav-link,
+    .sticky-top.navbar-light .navbar-nav .nav-link {
+        padding: 10px 0;
+        margin-left: 0;
+        color: var(--dark) !important;
+    }
+
+    .navbar-light .navbar-brand img {
+        max-height: 45px;
+    }
 }
-
-
-
 
 
 
