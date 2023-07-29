@@ -141,13 +141,12 @@ p {
 
 .newsletter .btn{
     padding: 15px;
-    background-color: #4489E4;
-    border: #4489E4;
+    background-color: #FA712E;
+    border: #FA712E;
     }
     
 .newsletter .btn:hover {
-    background-color: #3e5e89;
-    border: #3e5e89;
+    background-color: #9e481d;
 }
 
 .input-newsletter{
