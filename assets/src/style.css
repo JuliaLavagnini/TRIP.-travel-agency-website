@@ -87,6 +87,10 @@ p {
   text-align: center;
 }
 
+.input-button{
+ background-color: #4981fa;
+}
+
 /* NavBar */
 .navigation-site {
   padding-top: 0;
@@ -124,13 +128,16 @@ p {
   color: #4981fa;
 }
 
-.hero .btn {
+.navbar-nav .btn {
   background-color: #fc915c3a;
+}
+
+.navbar-nav .btn a {
   color: #dddddd;
   text-transform: uppercase;
 }
 
-.hero .btn:hover {
+.navbar-nav .btn:hover {
   color: white;
   text-transform: uppercase;
   background-color: rgba(250, 117, 50, 0.532);
