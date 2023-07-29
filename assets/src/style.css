@@ -190,7 +190,13 @@ p {
     color: var(--light) !important;
 }
 
+.package-item .btn{
+    background-color: #FA712E;
+    border: #FA712E;
+}
 
-
-
+.package-item .btn:hover{
+    background-color: #6e3e26;
+    border: none;
+}
 
