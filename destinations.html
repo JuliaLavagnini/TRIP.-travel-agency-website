@@ -1,86 +1,315 @@
 <!DOCTYPE html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
 
     <link rel="stylesheet" href="assets/src/style.css" />
     <title>Trip.</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <main>
-            <section class="navigation-site">
-                <!--SITE NAVEGATION MENU START-->
-                <div class="navbar-light mx-md-5">
-                    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white shadow-sm">
-                        <a href="index.html" class="navbar-brand"><img src="assets/media/Logo.svg" width="89" height="38"
-                                alt="Logo"></a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav ms-auto">
-                                <a class="nav-item nav-link" href="index.html">Home</a>
-                                <a class="nav-item nav-link active" href="destinations.html">Destinations</a>
-                                <a class="nav-item nav-link" href="about.html">About us</a>
-                                <button class="btn ms-auto">Get Started</button>
+      <section class="navigation-site">
+        <!--SITE NAVEGATION MENU START-->
+        <div class="navbar-light mx-md-5">
+          <nav class="navbar navbar-expand-lg navbar-light bg-none">
+            <a href="index.html" class="navbar-brand pb-1"
+              ><img
+                src="assets/media/Logo.svg"
+                width="89"
+                height="38"
+                alt="Logo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ms-auto">
+                <a class="nav-item nav-link" href="index.html">Home</a>
+                <a class="nav-item nav-link active" href="destinations.html"
+                  >Destinations</a
+                >
+                <a class="nav-item nav-link" href="about.html">About us</a>
+                <button class="btn ms-auto">
+                  <a href="#booking" style="text-decoration: none"
+                    >Get Started</a
+                  >
+                </button>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <!--SITE NAVEGATION MENU END-->
+      </section>
+
+      <section class="pt-5">
+        <div class="container-xxl py-5">
+          <div class="container">
+            <div class="text-center">
+              <h2 class="secong-page">Destinations</h2>
+              <p>This is the destinations we offer.</p>
+            </div>
+            <div class="row g-4 pt-5">
+              <!--item 1-->
+              <div class="col-lg-6 col-sm-6">
+                <button class="position-relative d-block overflow-hidden btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" id="china">
+                  <img
+                    class="img-fluid shadow rounded"
+                    src="assets/media/china.jpg"
+                    alt="china"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  />
+                  <h5 class="text-center">China</h5>
+                </button>
+
+                <!--Popup-->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Explore China</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <iframe width="460" height="315"
+                                    src="https://www.youtube.com/embed/vusOqZBKwek">
+                                </iframe>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                             </div>
                         </div>
-                    </nav>
+                    </div>
                 </div>
-                <!--SITE NAVEGATION MENU END-->
-            </section>
+              </div>
+              <!--item 2-->
+              <div class="col-lg-6 col-sm-6">
+                <button class="position-relative d-block overflow-hidden btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" id="london">
+                  <img
+                    class="img-fluid shadow rounded"
+                    src="assets/media/london.jpg"
+                    alt="london"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal1"
+                  />
+                  <h5 class="text-center">England</h5>
+                </button>
 
-            <section>
-                <h2 class="secong-page">Destinations</h2>
-                <p>This is the destinations we offer.</p>
+                <!--Popup-->
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Explore England</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <iframe width="460" height="315"
+                                    src="https://www.youtube.com/embed/EmQDLKA3xkg">
+                                </iframe>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <!--item 3-->
+              <div class="col-lg-6 col-sm-6">
+                <button class="position-relative d-block overflow-hidden btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" id="italy">
+                  <img
+                    class="img-fluid shadow rounded"
+                    src="assets/media/italy.jpg"
+                    alt="italy"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal2"
+                  />
+                  <h5 class="text-center">italy</h5>
+                </button>
 
-                <div class="row lines">
-                    <h2>South America</h2>
-                    <div class="col">
-                        <img src="assets/media/Mask-group-min.png" alt="">
-                        <h5 class="arg">Argentina</h5>
-                    </div>
-                    <div class="col">
-                        <img src="assets/media/brazil.png" alt="">
-                        <h5 class="bra">Brazil</h5>
-                    </div>
-                </div>
-                <div class="row lines">
-                    <h2>Central America</h2>
-                    <div class="col">
-                        <img src="assets/media/costa-rica-min.png" alt="">
-                        <h5 class="cos">Costa Rica</h5>
-                    </div>
-                    <div class="col">
-                        <img src="assets/media/guatemala-min.png" alt="">
-                        <h5 class="gua">Guatemala</h5>
+                <!--Popup-->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Explore Italy</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <iframe width="460" height="315"
+                                    src="https://www.youtube.com/embed/zS4AP0Q8L8g">
+                                </iframe>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row lines">
-                    <h2>Caribbean</h2>
-                    <div class="col">
-                        <img src="assets/media/jamaica-min.png" alt="">
-                        <h5 class="jam">Jamaica</h5>
-                    </div>
-                    <div class="col">
-                        <img src="assets/media/cuba-min.png" alt="">
-                        <h5 class="cub">Cuba</h5>
+              </div>
+              <!--item 4-->
+              <div class="col-lg-6 col-sm-6">
+                <button class="position-relative d-block overflow-hidden btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" id="indonesia">
+                  <img
+                    class="img-fluid shadow rounded"
+                    src="assets/media/indonesia.jpg"
+                    alt="indonesia"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal3"
+                  />
+                  <h5 class="text-center">Indonesia</h5>
+                </button>
+
+                <!--Popup-->
+                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Explore Indonesia</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <iframe width="460" height="315"
+                                    src="https://www.youtube.com/embed/IwtNFzX0ni8">
+                                </iframe>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </section>
-            
+              </div>
+              <!--item 5-->
+              <div class="col-lg-6 col-sm-6">
+                <button class="position-relative d-block overflow-hidden btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" id="brazil">
+                  <img
+                    class="img-fluid shadow rounded"
+                    src="assets/media/brazil.jpg"
+                    alt="brazil"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal4"
+                  />
+                  <h5 class="text-center">Brazil</h5>
+                </button>
+
+                <!--Popup-->
+                <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Explore Brazil</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <iframe width="460" height="315"
+                                    src="https://www.youtube.com/embed/q7zdJ-nMrlE">
+                                </iframe>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <!--item 6-->
+              <div class="col-lg-6 col-sm-6">
+                <button class="position-relative d-block overflow-hidden btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" id="australia">
+                  <img
+                    class="img-fluid shadow rounded"
+                    src="assets/media/sydney.jpg"
+                    alt="australia"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal5"
+                  />
+                  <h5 class="text-center">Australia</h5>
+                </button>
+
+                <!--Popup-->
+                <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Explore Australia</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <iframe width="460" height="315"
+                                    src="https://www.youtube.com/embed/TlUjcX62rlM">
+                                </iframe>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <!--item 7-->
+              <div class="col-lg-6 col-sm-6">
+                <button class="position-relative d-block overflow-hidden btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" id="thailand">
+                  <img
+                    class="img-fluid shadow rounded"
+                    src="assets/media/thailand.jpg"
+                    alt="thailand"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal6"
+                  />
+                  <h5 class="text-center">Thailand</h5>
+                </button>
+
+                <!--Popup-->
+                <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="exampleModalLabel">Explore Thailand</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <iframe width="460" height="315"
+                                    src="https://www.youtube.com/embed/8qyhpVsSqyE">
+                                </iframe>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
