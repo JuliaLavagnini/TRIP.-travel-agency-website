@@ -190,6 +190,7 @@ p {
     color: var(--light) !important;
 }
 
+/* Package */
 .package-item .btn{
     background-color: #FA712E;
     border: #FA712E;
@@ -200,3 +201,10 @@ p {
     border: none;
 }
 
+/* Booking */
+.booking {
+    background: linear-gradient(rgba(15, 23, 43, .7), rgba(15, 23, 43, .7)), url(../media/trsvellers.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
