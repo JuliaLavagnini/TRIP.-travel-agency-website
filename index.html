@@ -1,4 +1,4 @@
-<!DOCTYPE html lang="en">
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -60,8 +60,12 @@
 
               <a class="nav-item nav-link" href="About.html">About us</a>
 
-              <button type="button" class="btn text-center">
-                <a href="#booking" style="text-decoration: none">Get Started</a>
+              <button
+                type="button"
+                class="btn text-center"
+                onclick="window.location.href='index.html#booking'"
+              >
+                Get Started
               </button>
             </div>
           </div>
@@ -568,7 +572,7 @@
                         class="btn btn-outline-light w-100 py-3"
                         type="button"
                         data-bs-toggle="modal"
-                        data-bs-target="#Modal1"
+                        data-bs-target="#modal1"
                       >
                         Book Now
                       </button>
@@ -576,18 +580,15 @@
                       <!-- Modal -->
                       <div
                         class="modal fade"
-                        id="Modal1"
+                        id="modal1"
                         tabindex="-1"
-                        aria-labelledby="exampleModalLabel"
+                        aria-labelledby="modal1"
                         aria-hidden="true"
                       >
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5
-                                class="modal-title fs-5"
-                                id="exampleModalLabel"
-                              >
+                              <h5 class="modal-title fs-5" id="modal1">
                                 Thank to choose us for your next adventure!!
                               </h5>
                               <button
@@ -659,13 +660,13 @@
                 class="modal fade"
                 id="exampleModal"
                 tabindex="-1"
-                aria-labelledby="exampleModalLabel"
+                aria-labelledby="ModalLabel"
                 aria-hidden="true"
               >
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title fs-5" id="exampleModalLabel">
+                      <h5 class="modal-title fs-5" id="ModalLabel">
                         Thank you to sign up!!
                       </h5>
                       <button
