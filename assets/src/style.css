@@ -309,7 +309,7 @@ p {
   box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 576px) {
   h1 {
     font-size: 14vh;
   }
@@ -320,9 +320,11 @@ p {
   }
 
   .hero-heading {
-    padding-top: 60px;
+    padding-top: 10px;
   }
+
+  .hero {
+  height: 650px;
+}
 }
 
-@media (max-width: 768px) {
-}
