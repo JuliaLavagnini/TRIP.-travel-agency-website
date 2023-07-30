@@ -10,7 +10,6 @@ TRIP. Travel Agency Website is designed to be responsive website allowing visito
 ![GitHub contributors](https://img.shields.io/github/contributors/JuliaLavagnini/TRIP.-travel-agency-website?color=orange)
 ![GitHub language count](https://img.shields.io/github/languages/count/JuliaLavagnini/TRIP.-travel-agency-website?color=yellow)
 ![GitHub top language](https://img.shields.io/github/languages/top/JuliaLavagnini/TRIP.-travel-agency-website?color=green)
-![W3C Validation](https://img.shields.io/w3c-validation/html?color=blueviolet&targetUrl=https%3A%2F%2Fkera-cudmore.github.io%2FBully-Book-Club)
 
 ## CONTENTS
 
