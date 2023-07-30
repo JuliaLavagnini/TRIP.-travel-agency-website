@@ -1,4 +1,17 @@
-# Travel Website
+# TRIP. Travel Agency Website
+
+TRIP. Travel Agency Website is designed to be responsive website allowing visitors to view on a range of devices. It allows visitors to find and book a trip.
+
+![TRIP. Travel Agency Website shown on a range of devices](assets/documentation-media/Picture1.png)
+
+[View TRIP. Travel Agency Website on Netlify](https://grand-bienenstitch-48e85b.netlify.app/)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/JuliaLavagnini/TRIP.-travel-agency-website?color=red)
+![GitHub contributors](https://img.shields.io/github/contributors/JuliaLavagnini/TRIP.-travel-agency-website?color=orange)
+![GitHub language count](https://img.shields.io/github/languages/count/JuliaLavagnini/TRIP.-travel-agency-website?color=yellow)
+![GitHub top language](https://img.shields.io/github/languages/top/JuliaLavagnini/TRIP.-travel-agency-website?color=green)
+![W3C Validation](https://img.shields.io/w3c-validation/html?color=blueviolet&targetUrl=https%3A%2F%2Fkera-cudmore.github.io%2FBully-Book-Club)
+
 
 ## Project Goal
 The primary goal of this project is to work with TRIP. travel agency to create their new website which is based to visual and good undesrtand for the costumers. 
