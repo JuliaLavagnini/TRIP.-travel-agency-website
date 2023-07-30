@@ -20,8 +20,7 @@
   </head>
 
   <body>
-    <main>
-      <section class="navigation-site">
+      <div class="navigation-site">
         <!--SITE NAVEGATION MENU START-->
         <div class="navbar-light mx-md-5">
           <nav class="navbar navbar-expand-lg navbar-light bg-none">
@@ -32,25 +31,17 @@
                 height="38"
                 alt="Logo"
             /></a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-expanded="true">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav ms-auto">
+            <div class="navbar-collapse collapse" id="navbarCollapse">
+              <div class="navbar-nav ms-auto py-0">
                 <a class="nav-item nav-link" href="Index.html">Home</a>
                 <a class="nav-item nav-link active" href="Destinations.html"
                   >Destinations</a
                 >
                 <a class="nav-item nav-link" href="About.html">About us</a>
-                <button class="btn ms-auto">
+                <button class="btn">
                   <a href="Index.html#booking" style="text-decoration: none"
                     >Get Started</a
                   >
@@ -60,9 +51,9 @@
           </nav>
         </div>
         <!--SITE NAVEGATION MENU END-->
-      </section>
+      </div>
 
-      <section class="pt-5">
+      <div class="pt-5">
         <div class="container-xxl py-5">
           <div class="container">
             <div class="text-center">
@@ -514,8 +505,8 @@
             </div>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+
 
     <!-- Back to Top -->
     <a
@@ -524,7 +515,7 @@
       class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out rounded"
       data-abc="true"
     ></a>
-    
+
     <!--sript-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
